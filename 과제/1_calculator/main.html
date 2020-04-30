@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	
+	<!-- css -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- script -->
+	
+</head>
+<body>
+	<!-- Calculator -->
+	<table class='calculator' border="1">
+		
+		<!-- 출력부 -->
+		<tr>
+			<td class='show bx1' colspan='4' >
+				<input type="text" id='formula'>
+			</td>
+			<td class='show log' rowspan='7'>
+				<p>
+					123
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td class='show bx2' colspan='4'>
+				<input type="text" id='crnt-nmbr'>
+			</td>
+		</tr>
+
+		<!-- 입력부 -->
+		<tr>
+			<td>C</td>
+			<td>CE</td>
+			<td>&larr;</td>
+			<td class='operator btn' onclick='get_btn("=")'>+</td>
+		</tr>
+		<tr>
+			<td class='number btn' onclick="get_btn(7)">7</td>
+			<td class='number btn' onclick='get_btn(8)'>8</td>
+			<td class='number btn' onclick='get_btn(9)'>9</td>
+			<td class='operator btn' onclick='get_btn("-")'>-</td>
+		</tr>
+		<tr>
+			<td class='number btn' onclick='get_btn(4)'>4</td>
+			<td class='number btn' onclick='get_btn(5)'>5</td>
+			<td class='number btn' onclick='get_btn(6)'>6</td>
+			<td class='operator btn' onclick='get_btn("&divide;")'>&divide;</td>
+			
+		</tr>
+		<tr>
+			<td class='number btn' onclick='get_btn(1)'>1</td>
+			<td class='number btn' onclick='get_btn(2)'>2</td>
+			<td class='number btn' onclick='get_btn(3)'>3</td>
+			<td class='operator btn' onclick='get_btn("&times;")'>&times;</td>
+			
+		</tr>
+		<tr>
+			<td>+/-</td>
+			<td class='number btn' onclick='get_btn(0)'>0</td>
+			<td onclick='get_btn(".")'>.</td>
+			<td class='operator btn' onclick='get_btn("=")'>=</td>
+		</tr>
+	</table>
+
+	<script src='./js/main.js'></script>
+</body>
+</html>
