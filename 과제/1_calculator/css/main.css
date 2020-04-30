@@ -19,10 +19,7 @@
 /*출력부*/
 
 .calculator .bx1{
-	font-size: 0.75rem;
-	text-align: right;
-	color: #fff;
-	padding: 1.25rem 0.5rem 0.5rem 0;
+	padding: 1.25rem 0.75rem 0.5rem 0;
 	border-bottom: none;
 	background-color: #4B4B4B;
 }
@@ -38,18 +35,29 @@
 	text-align: right;
 }
 
-input[type=text]{
+.bx1 input[type=text]{
+	width: 100%;
+	background-color: #4B4B4B;
+	border-style: none;
+	text-align: right;
+	font-size: 0.75rem;
+	text-align: right;
+	color: #fff;
+	padding: 0 0.5rem 0.1rem 0;
+	background-color: #4B4B4B
+}
+
+.bx2 input[type=text]{
 	width: 100%;
 	background-color: #4B4B4B;
 	border-style: none;
 	text-align: right;
 	font-size: 1.75rem;
 	text-align: right;
-	color: #000;
+	color: #fff;
 	padding: 0 0.5rem 0.1rem 0;
 	background-color: #4B4B4B
 }
-
 /*입력부*/
 
 .calculator .btn{

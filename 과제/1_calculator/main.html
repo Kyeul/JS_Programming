@@ -26,42 +26,42 @@
 		</tr>
 		<tr>
 			<td class='show bx2' colspan='4'>
-				<input type="text" id='crnt-nmbr'>
+				<input type="text" id='crnt-nmbr' value=0>
 			</td>
 		</tr>
 
 		<!-- 입력부 -->
 		<tr>
-			<td>C</td>
-			<td>CE</td>
-			<td>&larr;</td>
-			<td class='operator btn' onclick='get_btn("=")'>+</td>
+			<td onclick="get_btn('all', 2)">C</td>
+			<td onclick="get_btn('crnt', 2)">CE</td>
+			<td onclick="get_btn('last', 2)">&larr;</td>
+			<td class='operator btn' onclick='get_btn("+", 1)'>+</td>
 		</tr>
 		<tr>
-			<td class='number btn' onclick="get_btn(7)">7</td>
-			<td class='number btn' onclick='get_btn(8)'>8</td>
-			<td class='number btn' onclick='get_btn(9)'>9</td>
-			<td class='operator btn' onclick='get_btn("-")'>-</td>
+			<td class='number btn' onclick="get_btn(7, 0)">7</td>
+			<td class='number btn' onclick='get_btn(8, 0)'>8</td>
+			<td class='number btn' onclick='get_btn(9, 0)'>9</td>
+			<td class='operator btn' onclick='get_btn("-", 1)'>-</td>
 		</tr>
 		<tr>
-			<td class='number btn' onclick='get_btn(4)'>4</td>
-			<td class='number btn' onclick='get_btn(5)'>5</td>
-			<td class='number btn' onclick='get_btn(6)'>6</td>
-			<td class='operator btn' onclick='get_btn("&divide;")'>&divide;</td>
+			<td class='number btn' onclick='get_btn(4, 0)'>4</td>
+			<td class='number btn' onclick='get_btn(5, 0)'>5</td>
+			<td class='number btn' onclick='get_btn(6, 0)'>6</td>
+			<td class='operator btn' onclick='get_btn("&divide;", 1)'>&divide;</td>
 			
 		</tr>
 		<tr>
-			<td class='number btn' onclick='get_btn(1)'>1</td>
-			<td class='number btn' onclick='get_btn(2)'>2</td>
-			<td class='number btn' onclick='get_btn(3)'>3</td>
-			<td class='operator btn' onclick='get_btn("&times;")'>&times;</td>
+			<td class='number btn' onclick='get_btn(1, 0)'>1</td>
+			<td class='number btn' onclick='get_btn(2, 0)'>2</td>
+			<td class='number btn' onclick='get_btn(3, 0)'>3</td>
+			<td class='operator btn' onclick='get_btn("&times;", 1)'>&times;</td>
 			
 		</tr>
 		<tr>
-			<td>+/-</td>
-			<td class='number btn' onclick='get_btn(0)'>0</td>
-			<td onclick='get_btn(".")'>.</td>
-			<td class='operator btn' onclick='get_btn("=")'>=</td>
+			<td onclick="get_btn('nega', 3)">+/-</td>
+			<td class='number btn' onclick='get_btn(0, 0)'>0</td>
+			<td onclick='get_btn(".", 3)'>.</td>
+			<td class='operator btn' onclick='get_btn("=", 2)'>=</td>
 		</tr>
 	</table>
 
