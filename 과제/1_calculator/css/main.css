@@ -35,6 +35,10 @@
 	text-align: right;
 }
 
+input[type=text]{
+	overflow: scroll;
+}
+
 .bx1 input[type=text]{
 	width: 100%;
 	background-color: #4B4B4B;
