@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calender</title>
+
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="makeCalender()">
+	<button onclick="add_row()">행 추가하기</button>
+	<button onclick="delete_row()">행 삭제하기</button>
+	<table border='1' class='calender'>
+		<th id='prev' colspan="2"><span>&#60;</span></th>
+		<th colspan="3">Month</th>
+		<th id='next' colspan="2"><span>&#62;</span></th>
+		<tbody id="content">
+			<td>sun</td>
+			<td>mon</td>
+			<td>tue</td>
+			<td>wed</td>
+			<td>thu</td>
+			<td>fri</td>
+			<td>sat</td>
+		</tbody>
+	</table>
+	<script src='./js/main.js'></script>
+</body>
+
+</html>

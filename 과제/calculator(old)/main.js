@@ -109,16 +109,16 @@ function getBtn(btn, mode){
 
 				}
 	}
-// 음수 추가
-	else if(mode == 3){
-		if(btn =='nega'){
-			if(crnt.value.indexOf('-', 0 ) == 0){
-				crnt.value = crnt.value.substring(1, crnt.value.length);
-			}else{
-				crnt.value = '-' + crnt.value;
-			}
-		}
-	}
+// // 음수 추가
+// 	else if(mode == 3){
+// 		if(btn =='nega'){
+// 			if(crnt.value.indexOf('-', 0 ) == 0){
+// 				crnt.value = crnt.value.substring(1, crnt.value.length);
+// 			}else{
+// 				crnt.value = '-' + crnt.value;
+// 			}
+// 		}
+// 	}
 
 	// reset
 	else if(mode == 2){

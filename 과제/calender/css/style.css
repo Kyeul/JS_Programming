@@ -1,0 +1,25 @@
+.calender{
+	border-collapse: collapse;
+	border-color: #8F8F8F;
+	margin: 2rem 3rem;
+}
+.calender th{
+	padding: 0.8rem 1.6rem;
+	text-align: center;
+	background-color: #E1E1E1;
+}
+
+.calender th:hover{
+	background-color: #fff;
+	cursor: pointer;
+}
+.calender td{
+	padding: 0.8rem 1.6rem;
+	text-align: center;
+	background-color: #E1E1E1;
+}
+
+.calender td:hover:not(.show){
+	background-color: #fff;
+	cursor: pointer;
+}

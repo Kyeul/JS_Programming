@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+		var calenderDate = new Date();
+	    var year = calenderDate.getFullYear();
+	    var month = calenderDate.getMonth();
+	    var date = calenderDate.getDate();
+
+	    var start = new Date(year, month-1, 1);
+
+		day = new Date();
+		first = new Date(day.getFullYear(), day.getMonth(), 32);
+		alert(start);
+		alert(calenderDate.getDay());
+		// alert(calenderDate.getDay(calenderDate.getDate()));
+	</script>
+</body>
+</html>
